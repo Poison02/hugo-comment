@@ -2,6 +2,8 @@
 title: "Nginx快速入门"
 date: 2023-04-09T20:15:22+08:00
 draft: false
+tags: ['Linux', 'Nginx']
+category: '学习之路'
 ---
 
 公司项目刚上线，并发量少，只需一个jar包启动即可，<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/35204765/1681040244337-74e4343c-1f43-4c1c-87ca-425c7c0be289.png#averageHue=%23f7f7f7&clientId=u4980bad8-10a3-4&from=paste&height=244&id=u10365bdf&name=image.png&originHeight=244&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10408&status=done&style=none&taskId=ub750129e-75a4-449e-9718-187938908b7&title=&width=582)<br />但慢慢的，使用的用户越来越多，并发量增大，一台服务器根本不能满足！<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/35204765/1681040274363-3914548b-848f-4b48-b793-03d9a472d008.png#averageHue=%23f6f2f2&clientId=u4980bad8-10a3-4&from=paste&height=336&id=u1fbe7bdb&name=image.png&originHeight=336&originWidth=544&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22032&status=done&style=none&taskId=u9811dad2-8932-42a7-89ba-c77ad8131f8&title=&width=544)<br />这时候，可以通过扩展服务器的数量，这时候几个项目启动在不同的服务器上，用户要访问，就需要增加一个代理服务器来帮我们解决和处理请求。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/35204765/1681040383105-b3158b30-78bd-4b04-bc4c-2d0f53190da9.png#averageHue=%23f4f4f4&clientId=u4980bad8-10a3-4&from=paste&height=402&id=ud1fd5651&name=image.png&originHeight=402&originWidth=721&originalType=binary&ratio=1&rotation=0&showTitle=false&size=36054&status=done&style=none&taskId=u0ee1b123-a2d3-4da6-b7d9-bf16b61315c&title=&width=721)<br />我们希望这个过程是用户无感知的，所以选择了**Nginx**！

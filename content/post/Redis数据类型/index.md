@@ -2,6 +2,8 @@
 title: "Redis数据类型"
 date: 2023-04-12T00:23:11+08:00
 draft: false
+tags: ['Linux', 'Redis']
+category: '学习之路'
 ---
 
 <a name="Pfn4a"></a>

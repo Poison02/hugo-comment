@@ -2,6 +2,8 @@
 title: "CentOS安装Docker"
 date: 2023-03-31T18:29:47+08:00
 draft: false
+tags: ['Linux', 'Docker']
+category: '环境配置'
 ---
 
 # CentOS安装Docker

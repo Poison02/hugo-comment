@@ -2,6 +2,8 @@
 title: "Redis入门"
 date: 2023-04-09T20:16:42+08:00
 draft: false
+tags: ['Linux', 'Redis']
+category: '学习之路'
 ---
 
 <a name="bdU3F"></a>
