@@ -16,7 +16,7 @@ category: '环境配置'
 
 可以使用 `uname -r` 查看内核版本。我下面的一切操作都是使用 `root`用户，若是普通用户则需要加上 `sudo`。
 
-![image-20230328212447018](./assets/image-20230328212447018.png)
+![image-20230328212447018](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker1.png)
 
 ## 卸载旧版本
 
@@ -53,9 +53,9 @@ yum-config-manager \
 sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g'    /etc/yum.repos.d/docker-ce.repo
 ```
 
-![image-20230328213325272](./assets/image-20230328213325272.png)
+![image-20230328213325272](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker2.png)
 
-![image-20230328213400243](./assets/image-20230328213400243.png)
+![image-20230328213400243](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker3.png)
 
 ## 安装Docker
 
@@ -67,7 +67,7 @@ yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 最后看到 `complete`即可
 
-![image-20230328213448873](./assets/image-20230328213448873.png)
+![image-20230328213448873](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker4.png)
 
 # CentOS8额外配置
 
@@ -105,7 +105,7 @@ systemctl enable docker
 systemctl start docker
 ```
 
-![image-20230328214014643](./assets/image-20230328214014643.png)
+![image-20230328214014643](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker5.png)
 
 # 建立docker用户组
 
@@ -142,7 +142,7 @@ docker run --rm hello-world
 
 能输出下面信息就代表成功！
 
-![image-20230328214927392](./assets/image-20230328214927392.png)
+![image-20230328214927392](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/docker6.png)
 
 # 配置镜像加速器
 
