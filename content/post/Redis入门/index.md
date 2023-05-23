@@ -175,7 +175,7 @@ redis-benchmark -h localhost -p 6379 -c 100 -n 10000
 
 随机截取一点来看看：
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/35204765/1681036770515-5c576693-ef14-4dd6-ada5-6a5e2170d026.png#averageHue=%230d0a07&clientId=u9a29a9c1-a5ab-4&from=paste&height=259&id=u907f1a0d&name=image.png&originHeight=259&originWidth=583&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22224&status=done&style=none&taskId=u6bc25a98-7e01-45e1-a25b-6a62022779a&title=&width=583)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1681036770515-5c576693-ef14-4dd6-ada5-6a5e2170d026.png)
 
 可以看到10000条请求在0.19秒就完毕！100个客户端并发！可以看到redis的速度真的非常恐怖。
 
@@ -183,7 +183,7 @@ redis-benchmark -h localhost -p 6379 -c 100 -n 10000
 
 redis，默认有16个数据库
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/35204765/1681112343086-f25fb47f-5b01-4da4-a118-bcbca7bdd6ab.png#averageHue=%23040403&clientId=u3186587e-503f-4&from=paste&height=79&id=u6880358e&name=image.png&originHeight=79&originWidth=532&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7929&status=done&style=none&taskId=u1e458c7c-5347-4232-a41b-8241aca4d6c&title=&width=532)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1681112343086-f25fb47f-5b01-4da4-a118-bcbca7bdd6ab.png)
 
 默认使用的是第9个
 
