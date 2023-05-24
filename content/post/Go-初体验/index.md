@@ -13,9 +13,9 @@ tag: 'Go'
 
 ### 下载 
 
-首先下载相应的压缩包，地址：[https://go.dev/dl/](https://go.dev/dl/)。
+首先下载相应的压缩包，地址：https://go.dev/dl/。
 
-![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-1.png)
+![](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-1.png)
 
 然后使用软件﻿`xftp`﻿将压缩包上传到`Linux`的﻿`/usr/local`﻿上
 
@@ -69,7 +69,7 @@ go version
 
 在官网下载对应的文件，可以下载﻿msi﻿或者﻿zip﻿都可，我这里直接下载﻿msi﻿文件。
 
-地址：[https://go.dev/dl/](https://go.dev/dl/)
+地址：https://go.dev/dl/
 
 ![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-3.png)
 
@@ -78,6 +78,18 @@ go version
 只需要双击应用程序即可安装，默认安装在C盘，可以更改安装路径。
 
 ### 添加环境变量 
+
+这里需要添加三个环境，`GOROOT`、`GOPATH`、`path`
+
+在系统变量下新建`GOROOT`和`GOPATH`，里面分别放的是GO的安装目录和工作目录，可以看到如下，我是新建了一个`workspace`目录，用来存放GO的工作目录。
+
+![img](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1684892894692-dbaa7ce0-c56d-4773-af99-a84365734366.png)
+
+这里要注意，在`workspace`下需要新建三个包，如下图：
+
+![img](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1684892935773-8ff1489a-3b1f-488b-914d-c8abfa4da3f2.png)
+
+下面是添加`path`变量：
 
 将﻿`bin`﻿目录添加到环境变量中
 
